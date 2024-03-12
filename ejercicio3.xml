@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+	<!ELEMENT rss (channel)>
+		<!ATTLIST rss version (0.91 | 1.0 | 2.0) #REQUIRED>
+	<!ELEMENT channel (title,link,descripcion,lenguage?,image?,item+)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT link (#PCDATA)>
+	<!ELEMENT descripcion (#PCDATA)>
+	<!ELEMENT lenguage (#PCDATA)>
+	<!ELEMENT image (title,url,link,width,height)>
+	<!ELEMENT url (#PCDATA)>
+	<!ELEMENT width (#PCDATA)>
+	<!ELEMENT height (#PCDATA)>
+	<!ELEMENT item (title,link,descripcion)>
+]>
+<rss version="0.91">
+	<channel>
+		<title>Deporte</title>
+		<link>https://elpais.com/</link>
+		<descripcion>Actualidad en Deportes</descripcion>
+		<lenguage>es-Es</lenguage>
+		<image>
+			<title>Futbol</title>
+			<url>https://elpais.com/</url>
+			<link>https://elpais.com/</link>
+			<width>20</width>
+			<height>12</height>
+		</image>
+		<item>
+			<title>Alonso: "Ganar en Monaco seria muy especial"</title>
+			<link>https://twitter.com/?lang=es</link>
+			<descripcion>sobre la marcha ayer el director tecnico Aldo Costa, dijo: "Los cambios que se hacen son para mejor y tengo plena 
+				confianza en Domenicali. Creo que puede mejorar la estructura en Ferrari".
+			</descripcion>
+		</item>
+	</channel>
+</rss>

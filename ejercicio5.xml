@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Band [
+	<!ELEMENT Band (NameBand, (History | Awards)?, Member+, Instrument*)>
+	<!ELEMENT NameBand (#PCDATA)>
+	<!ELEMENT History (#PCDATA)>
+	<!ELEMENT Awards (#PCDATA)>
+	<!ELEMENT Member (NameMember, Role, Joined)>
+		<!ATTLIST Member BDate NMTOKEN #IMPLIED>
+		<!ATTLIST Member Plays IDREF #REQUIRED>
+	<!ELEMENT NameMember (#PCDATA)>
+	<!ELEMENT Role (#PCDATA)>
+	<!ELEMENT Joined EMPTY>
+			<!ATTLIST Joined YEAR CDATA #REQUIRED>
+	<!ELEMENT Instrument (#PCDATA)>
+			<!ATTLIST Instrument Id ID #REQUIRED>
+]>
+<Band>
+	<NameBand>Aerosmith</NameBand>
+	<History>es una banda estadounidense de rock 1​2​3​ formada en Boston en 1970. Sus miembros son: Steven Tyler (cantante), Joe Perry (guitarra), 
+	Tom Hamilton (bajo), Joey Kramer (batería) y Brad Whitford (guitarra).
+	</History>
+	<Member BDate="1970" Plays="L1">
+		<NameMember>Steven Tyler</NameMember>
+		<Role>cantante</Role>
+		<Joined YEAR="1970"></Joined>
+	</Member>
+	<Instrument Id="L1">Voice and guitar</Instrument>
+</Band>

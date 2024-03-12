@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="https://elpais.com/" version="2.0">
+	<channel>
+		<title>EL PAIS.com - Seccion Tecnologia</title>
+		<link>https://elpais.com/</link>
+		<descripcion>asdf</descripcion>
+		<item>
+			<title>Sony empieza a reabrir las plataformas asaltadas</title>
+			<link>https://elpais.com/ultimas-noticias/</link>
+			<dc:creator>EL PAIS</dc:creator>
+			<descripcion>sony a comenzado a restaurar los servicios de PlayStation Network cuyo ataque el mes pasado comprometió los datos de 
+						70 millones de jugadores. Tambien lo anuncia para Sony Online.
+			</descripcion>
+		</item>
+		<item>
+			<title>El codigo detras del tuit</title>
+			<dc:creator>RAFAEL CLEMENTE</dc:creator>
+			<link>https://twitter.com/?lang=es</link>
+			<descripcion>En el reino de tuitilandia cada dia se envian algo mas de 50 millones de tuits (frente a 200.000 millones de correos electronicos).
+						A 140 caracteres por tuit, equivale aproximadamente al contenido de un disco de siete gigabytes. Un marasmo de mensajes cortos,
+						la mayoria irrelevantes, inconexos en su conjunto, dedicados a la comunicacion de un instante.
+			</descripcion>
+		</item>
+		<item>
+			<title>Google maneja el ruido en la red para ocultar sus problemas</title>
+			<dc:creator>ADRIAN SEGOVIA</dc:creator>
+			<link>https://www.google.com/</link>
+			<descripcion>Blogger no es una plataforma de blogs cualquiera. La Empresa de medicion comStore les otorgaba en marzo de este año 342,7 millones
+						de usuarios en todo el planeta, lo que lo situa dentro de los diez sites con mas visitas del mundo. Una red de blogs con esta dimension
+						no es un producto mas para Google. Blogger se lanzó en agosto de 1999. En 2003 fue comprada por Google y hoy representa el 34%
+						(duplicados, eso si, con otras iniciativas de Google) del total de la audiencia mundial de Google (casi mil millones de internautas 
+						en todo el mundo).
+			</descripcion>
+		</item>
+	</channel>
+</rss>
